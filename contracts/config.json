@@ -1,4 +1,21 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "mina-testnet": {
+      "url": "https://proxy.berkely.minaexplorer.com/graphql",
+      "keyPath": "keys/mina-testnet.json",
+      "feepayerKeyPath": "/home/codespace/.cache/zkapp-cli/keys/0xkamal7.json",
+      "feepayerAlias": "0xkamal7",
+      "fee": "0.01",
+      "smartContract": "Add"
+    },
+    "berkeley": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/berkeley.json",
+      "feepayerKeyPath": "/home/codespace/.cache/zkapp-cli/keys/0xkamal7.json",
+      "feepayerAlias": "0xkamal7",
+      "fee": "0.1",
+      "smartContract": "Add"
+    }
+  }
 }
